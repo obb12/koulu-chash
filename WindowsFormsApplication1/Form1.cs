@@ -36,5 +36,10 @@ namespace WindowsFormsApplication1
             WebClient webClient = new WebClient();
             dynamic result = webClient.DownloadString("https://api.foursquare.com/v2/users/self?oauth_token=XXXXXXX");
         }
+
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
