@@ -15,11 +15,16 @@ namespace WindowsFormsApplication1
         public Form1()
         {
             InitializeComponent();
+            FormBorderStyle = FormBorderStyle.None;
+WindowState = FormWindowState.Maximized;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+           
+            webBrowser1.Url = new Uri("http://google.com");
+
+
         }
     }
 }

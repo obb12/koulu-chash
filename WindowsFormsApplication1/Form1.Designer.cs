@@ -34,11 +34,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(-1, 14);
+            this.button1.Location = new System.Drawing.Point(-1, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(287, 23);
+            this.button1.Size = new System.Drawing.Size(910, 35);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Avaa sivu";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -47,14 +47,14 @@
             this.webBrowser1.Location = new System.Drawing.Point(-1, 43);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(287, 231);
+            this.webBrowser1.Size = new System.Drawing.Size(1321, 827);
             this.webBrowser1.TabIndex = 1;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(1300, 741);
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
