@@ -113,6 +113,7 @@
             this.Controls.Add(this.radioETH);
             this.Controls.Add(this.radioBTC);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "CryptoStalk";
             this.Load += new System.EventHandler(this.Form1_Load);

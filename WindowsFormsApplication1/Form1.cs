@@ -39,7 +39,7 @@ namespace WindowsFormsApplication1
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             var client = new WebClient();
-            var stream = client.OpenRead("https://api.coindesk.com/v1/bpi/currentprice.json");
+            var stream = client.OpenRead(" http://api.bitcoincharts.com/v1/markets.json");
             var reader = new StreamReader(stream);
 
             var jObject = Newtonsoft.Json.Linq.JObject.Parse(reader.ReadLine());
@@ -59,7 +59,7 @@ namespace WindowsFormsApplication1
                 Timerlist = new List<Timer>();
                 timer1 = new Timer();
                 timer1.Tick += new EventHandler(timer1_Tick);
-                timer1.Interval = 10000; // in miliseconds
+                timer1.Interval = 10000; // in milliseconds
                 timer1.Start();
                 Console.WriteLine(this);
             }
