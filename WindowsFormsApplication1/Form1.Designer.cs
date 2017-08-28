@@ -91,7 +91,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Gainsboro;
-            this.button1.Location = new System.Drawing.Point(201, 136);
+            this.button1.Location = new System.Drawing.Point(201, 97);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(45, 24);
             this.button1.TabIndex = 5;
@@ -106,7 +106,7 @@
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(258, 172);
+            this.ClientSize = new System.Drawing.Size(252, 132);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.radioXRP);
